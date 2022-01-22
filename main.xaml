@@ -29,6 +29,6 @@
 <local:MyCard>
     <StackPanel Margin="25,40,23,15">
                     <local:MyButton Margin="0,0,10,0" Width="140" Height="35" Padding="13,0,13,0"
-                   Text="刷新主页" EventType="刷新主页" ToolTip="这通常用于联网更新主页时刷新信息，对本地文件没啥用" />
+                   Text="刷新主页" EventType="刷新主页" />
     </StackPanel>
 </local:MyCard>
