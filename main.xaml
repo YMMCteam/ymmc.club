@@ -1,0 +1,34 @@
+<local:MyCard>
+    <StackPanel Margin="25,40,23,55">
+	    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+			<Image Height="60" HorizontalAlignment="Center" Source="https://dd-static.jd.com/ddimg/jfs/t1/138092/1/27062/32463/61ec22c6E5243b56a/54af8f5fae0714c7.png" />
+        </StackPanel>
+        <local:MyButton Margin="0,35,0,0" Width="210" Height="35"
+                 Text="使用 1.12.2 进入 YMMC" EventType="启动游戏" EventData="1.12.2|ymmc.club" />
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10,0,0">
+        <local:MyButton Margin="0,0,0,0" Width="100" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                   Text="打开官网" EventType="打开网页" EventData="https://ymmc.club/" />
+        <local:MyButton Margin="10,0,0,0" Width="100" Height="35" HorizontalAlignment="Right" Padding="0,0,13,0"
+                   Text="加入群组" EventType="打开网页" EventData="https://jq.qq.com/?_wv=1027&amp;k=B5lgPqju" />
+        </StackPanel>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="更新日志" Margin="0,15,0,15">
+    <StackPanel Margin="25,40,23,15">
+        <!--<local:MyHint Text="local:MyHint 代表提示条，它默认是警告样式。" />
+        <local:MyHint Margin="0,8,0,2" IsWarn="False"
+                   Text="将提示条的 IsWarn 属性改为 False 即可改为提示样式。" />
+        <TextBlock Margin="0,6,0,0"
+                   Text="卡片（local:MyCard）的 Title 属性决定了它的标题。"/>-->
+        <TextBlock Margin="0,6,0,0"
+                   Text="22/01/22: 发布最初版本"/>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard>
+    <StackPanel Margin="25,40,23,15">
+                    <local:MyButton Margin="0,0,10,0" Width="140" Height="35" Padding="13,0,13,0"
+                   Text="刷新主页" EventType="刷新主页" ToolTip="这通常用于联网更新主页时刷新信息，对本地文件没啥用" />
+    </StackPanel>
+</local:MyCard>
